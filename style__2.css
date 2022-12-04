@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&family=Lora:wght@400;500&family=Merriweather&family=Nabla&family=Play&family=Roboto&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@100;300&family=Sono&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&family=Lora:wght@400;500&family=Merriweather&family=Nabla&family=Play&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@100;300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Sono&family=Source+Sans+Pro&display=swap');
+body{
+	background-color: #000;
+	font-family: Inter;
+}
+.header {
+	font-family: Roboto;
+	color: #fff;
+}
+.name__brand{
+	position: absolute;
+	color: red;
+	top: 10px;
+	left: 550px;
+	font-size: 35px;
+	line-height: 22px;
+}
+
+.page__1:hover{
+	text-decoration: underline;
+}
+.page__2 {
+	position: absolute;
+	top: 10px;
+	left: 400px;
+	transition: all 0.3s ease 0s;
+}
+.page__2:hover{
+	font-size: 15px;
+	text-decoration: underline;
+	transition: all 0.3s ease 0s;
+}
+.page__3 {
+	position: absolute;
+	left: 500px;
+	top: 70px;
+	transition: all 0.3s ease 0s;
+}
+.page__3:hover{
+	font-size: 15px;
+	transition: all 0.3s ease 0s;
+	text-decoration: underline;
+}
+.page__4 {
+	position: absolute;
+	top: 70px;
+	left: 680px;
+	transition: all 0.3s ease 0s;
+}
+.page__4:hover{
+	font-size: 15px;
+	transition: all 0.3s ease 0s;
+	text-decoration: underline;
+}
+.page__about {
+	position: absolute;
+	top: 10px;
+	left: 780px;
+	transition: all 0.3s ease 0s;
+}
+.page__about:hover{
+	font-size: 15px;
+	text-decoration: underline;
+	transition: all 0.3s ease 0s;
+}
+.page__about__ {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	transition: all 0.3s ease 0s;
+}
+.page__about__:hover{
+	font-size: 15px;
+	transition: all 0.3s ease 0s;
+	text-decoration: underline;
+}
+.page {
+}
+.footer {
+	position: absolute;
+	top: 1500px;
+	width: 1224px;
+	height: 200px;
+	background-color: #666;
+}
+
+.botton__inst_kryvol {
+	position: absolute;
+	top: 70px;
+	border: #fff solid 1px;
+	padding: 25px;
+	border-radius: 50px;
+	left: 40px;
+	font-size: 20px;
+	color: red;
+	transition: all 0.3s ease 0s;
+}
+.botton__inst_kryvol:hover{
+	background-color: rgb(141, 6, 6);
+	border-color: red;
+	color: white;
+	transition: all 0.3s ease 0s;
+}
+.phone_number {
+	position: absolute;
+	right: 40px;
+	font-size: 25px;
+	color: rgb(155, 35, 35);
+	top: 110px;
+}
+.go__up{
+	position: absolute;
+	left: 550px;
+	font-size: 25px;
+	color: #fff;
+	top: 70px;
+	border: #fff solid 1px;
+	padding: 25px;
+	border-radius: 50px;
+	transition: all 0.3s ease 0s;
+}
+.go__up:hover{
+	border-color: #fff;
+	background-color: #fff;
+	color: #666;
+	transition: all 0.3s ease 0s;
+}
+.contacts{
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	font-size: 15px;
+	border: white 1px solid;
+	padding: 10px;
+	border-radius: 50px;
+	color: red;
+}
